@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs/DesignPatternsForEmbeddedInC
+/DesignPatternsForEmbeddedInC.vcxproj
+/DesignPatternsForEmbeddedInC.vcxproj.filters
+/DesignPatternsForEmbeddedInC.vcxproj.user
