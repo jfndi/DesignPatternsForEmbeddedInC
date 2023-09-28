@@ -24,6 +24,7 @@
     <ProjectGuid>{dd26ff72-14fd-4a6e-8d1f-3c11b558cb42}</ProjectGuid>
     <RootNamespace>CachedQueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02 CachedQueue</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

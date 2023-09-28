@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ed1612b8-bb9d-4b52-b3d0-199ebabe4167}</ProjectGuid>
-    <RootNamespace>Queue</RootNamespace>
+    <ProjectGuid>{73ab9c1f-fdc7-4481-98a8-9043fdaffa45}</ProjectGuid>
+    <RootNamespace>ECGModule</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02 Queue</ProjectName>
+    <ProjectName>03 ECGModule</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,11 +128,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Queue.h" />
+    <ClInclude Include="ArrythmiaDetector.h" />
+    <ClInclude Include="ECGPkg.h" />
+    <ClInclude Include="ECG_Module.h" />
+    <ClInclude Include="HistogramDisplay.h" />
+    <ClInclude Include="QRSDetector.h" />
+    <ClInclude Include="TestBuilder.h" />
+    <ClInclude Include="TimeMarkedData.h" />
+    <ClInclude Include="TMDQueue.h" />
+    <ClInclude Include="WaveformDisplay.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Queue.c" />
-    <ClCompile Include="QueueTester.c" />
+    <ClCompile Include="ArrythmiaDetector.c" />
+    <ClCompile Include="ECG_Module.c" />
+    <ClCompile Include="HistogramDisplay.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="QRSDetector.c" />
+    <ClCompile Include="TestBuilder.c" />
+    <ClCompile Include="TimeMarkedData.c" />
+    <ClCompile Include="TMDQueue.c" />
+    <ClCompile Include="WaveformDisplay.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
