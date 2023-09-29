@@ -71,3 +71,5 @@ dkms.conf
 /OOPInC/Sensor/x64/Debug
 /ECGModule/x64/Debug
 /ECGModulev2/x64/Debug
+*.png
+/.gitignore.bak
