@@ -82,6 +82,10 @@ static void cleanUpRelations(TestBuilder* const me)
 	ECG_Module_Cleanup(&me->itsECG_Module);
 	HistogramDisplay_Cleanup(&me->itsHistogramDisplay);
 	QRSDetector_Cleanup(&me->itsQRSDetector);
-	TMDQueue_Cleanup(&me->itsTMDQueue);
 	WaveformDisplay_Cleanup(&me->itsWaveformDisplay);
+	/*
+	 * Has to be the last as me->itsNotificationHandle will
+	 * be set to NULL.
+	 */
+	TMDQueue_Cleanup(&me->itsTMDQueue);
 }

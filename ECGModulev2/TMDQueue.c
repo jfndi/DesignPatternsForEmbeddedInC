@@ -74,7 +74,7 @@ void TMDQueue_notify(TMDQueue* const me, const TimeMarkedData tmd)
 	pNH = me->itsNotificationHandle;
 	while (pNH)
 	{
-		printf("---->> calling updateAdd on pNH %p\n", pNH);
+		printf("---->> calling updateAddr() on pNH %p\n", pNH);
 		pNH->updateAddr(NULL, tmd);
 		pNH = pNH->itsNotificationHandle;
 	}
