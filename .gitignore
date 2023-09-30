@@ -73,3 +73,4 @@ dkms.conf
 /ECGModulev2/x64/Debug
 *.png
 /.gitignore.bak
+/HardwareProxy/x64/Debug
